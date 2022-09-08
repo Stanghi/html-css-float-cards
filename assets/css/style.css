@@ -6,12 +6,35 @@
 }
 
 body{
-    font-family: 'Qwitcher Grypen', cursive;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    background-color: #FFFFFE;
 }
 
 /* components */
+.container{
+    max-width: 1200px;
+    width: 70%;
+    margin: 40px auto;
+    height: 200px;
+}
 
 /* utility */
+.debug{
+    background-color: rgba(8, 180, 8, 0.50);
+    border: 1px solid black;
+}
 
 /* main */
+main h1{
+    text-align: center;
+    padding: 20px;
+    color: #E53170;
+    font-size: 2.5rem;
+}
+
+main p{
+    text-align: center;
+    padding: 26px;
+    color: #0F0E17;
+    font-size: 18px;
+}
