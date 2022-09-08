@@ -59,7 +59,7 @@ main p{
     float: left;
     width: calc(100% / 3 - 30px);
     height: 100px;
-    margin: 15px;
+    margin: 25px 15px;
     background-color: #0F0E17;
     color: #FFFFFE;
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
