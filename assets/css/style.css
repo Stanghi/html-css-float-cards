@@ -70,18 +70,18 @@ main p{
     float: left;
 }
 
-ul{
+.row .card ul{
     float: left;
     height: 100%;
     list-style-type: none;
     padding: 10px;
 }
 
-ul li{
+.row .card ul li{
     padding: 3px;
 }
 
-ul h3{
+.row .card ul h3{
     text-transform: uppercase;
 }
 
