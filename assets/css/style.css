@@ -71,24 +71,24 @@ main p{
     float: left;
 }
 
-.row .card .info{
-    padding: 15px;
-    width: calc(100% - 100px);
-    height: 100px;
+ul{
     float: left;
+    height: 100%;
+    list-style-type: none;
+    padding: 10px;
 }
 
-.row .card .info h3{
+ul li{
+    padding: 3px;
+}
+
+ul h3{
     text-transform: uppercase;
-    margin-bottom: 5px;
-}
-
-.row .card .info span{
-    margin-bottom: 5px;
 }
 
 .mail{
     color: #68CBF2;
+    text-decoration: none;
 }
 
 /* end conteiner-box */
