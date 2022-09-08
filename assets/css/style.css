@@ -18,12 +18,6 @@ body{
     padding: 20px;
 }
 
-.container-card{
-    max-width: 1200px;
-    width: 60%;
-    margin: auto;
-}
-
 /* utility */
 .debug{
     background-color: rgba(8, 180, 8, 0.50);
@@ -55,18 +49,46 @@ main p{
 /* end container */
 
 /* conteiner-box */
+
+.row{
+    max-width: 1200px;
+    width: 60%;
+    margin: auto;
+}
+
 .row .card{
     float: left;
-    width: calc(100% / 3 - 40px);
+    width: calc(100% / 3 - 30px);
     height: 100px;
-    margin: 20px;
+    margin: 15px;
     background-color: #0F0E17;
     color: #FFFFFE;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .row .card img{
     height: 100px;
+    float: left;
 }
 
+.row .card .info{
+    padding: 15px;
+    width: calc(100% - 100px);
+    height: 100px;
+    float: left;
+}
+
+.row .card .info h3{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.row .card .info span{
+    margin-bottom: 5px;
+}
+
+.mail{
+    color: #68CBF2;
+}
 
 /* end conteiner-box */
