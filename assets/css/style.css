@@ -15,7 +15,7 @@ body{
     max-width: 1200px;
     width: 60%;
     margin: 10px auto;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 /* utility */
@@ -63,6 +63,7 @@ main p{
     background-color: #0F0E17;
     color: #FFFFFE;
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-width: 320px;
 }
 
 .row .card img{
